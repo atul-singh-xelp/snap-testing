@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 var faker = require('faker');
 const SignupElement=require('../data/singupelements');
 let timeout = 50000;
+
 let browser
 let page
 let title
