@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
  var LoginElement= require('../data/loginelements.js');
 
 let timeout = 50000;
+
 let browser
 let page
 let title
