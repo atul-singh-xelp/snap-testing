@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
  var LoginElement= require('../data/loginelements.js');
 
 let timeout = 50000;
-
 let browser
 let page
 let title
@@ -21,7 +20,6 @@ beforeAll(async() => {
     });
  });
 
- 
 describe('Candidate Login', ()=>{
     it('check Candidate login', async() =>{ 
         await page.goto(betaurl, { waitUntil : ['load', 'domcontentloaded']});

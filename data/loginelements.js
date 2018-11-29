@@ -1,4 +1,5 @@
 module.exports = {
+    
     emailElement :'#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.Login-inputContainer > div.Login-emailContainer > div > input',
     passwordElement : '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.Login-inputContainer > div.Login-passwordContainer > div > input',
     loginButton: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.CenteredContainer > div.Login-loginButtonContainer > div',
