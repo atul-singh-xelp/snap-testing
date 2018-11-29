@@ -13,7 +13,7 @@ let lname = faker.name.lastName();
 
 beforeAll(async() => {
     browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         slowMo: 250
     });
     page = await browser.newPage();
