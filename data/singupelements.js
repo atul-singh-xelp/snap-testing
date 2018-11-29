@@ -8,7 +8,7 @@ module.exports={
     candidateTermAndCondition: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.SignupPopup-checkbox > div.CheckBox > div',
     candidateSignupButton: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.SignupPopup-buttonHolder > div',
     candidateVerificationemailSent:'#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.MailSendPopup-buttonHolder > div',
-    
+
     recruiterGetStartedButton: '#root > div > div.RecruiterHomePage > div.HomeBanner > div > div.HomeBanner-InnerBoxHolder > div > div > div > div > div > div > div',
     recruiterFirstName: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div:nth-child(2) > div:nth-child(1) > div > input',
     recruiterLastName: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div:nth-child(2) > div:nth-child(2) > div > input',
@@ -17,5 +17,6 @@ module.exports={
      recruiterPassword: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div:nth-child(5) > div > input',
      recruiterTremAndCondition: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.SignupPopup-checkbox > div.CheckBox > div',
      recruiterSignupButton: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.SignupPopup-buttonHolder > div',
-     recruiterEmailVerificationSent: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.MailSendPopup-buttonHolder > div'   
+     recruiterEmailVerificationSent: '#modal-root > div > div > div.ModalPanel-content > div > div.Auth > div > div.LoginFlow-panelContainer > div > div.MailSendPopup-buttonHolder > div'
+         
 }
