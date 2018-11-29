@@ -8,10 +8,12 @@ let title
 let betaurl='https://beta.snaphunt.com';
 let cvpath='cv/AtulSinghcv.pdf';
 let Email 
+let fname = faker.name.firstName();
+let lname = faker.name.lastName();
 
 beforeAll(async() => {
     browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 250
     });
     page = await browser.newPage();
@@ -25,8 +27,8 @@ beforeAll(async() => {
         Email = faker.name.firstName()+'@'+faker.name.lastName()+'.com';
         await page.goto('https://beta.snaphunt.com/jobseekers');        
         await page.click(SignupElement.candidateSubmityourcvButton);
-        await page.type(SignupElement.candidateFirstName,'Atul');
-        await page.type(SignupElement.candidateLastName,'Singh');
+        await page.type(SignupElement.candidateFirstName,fname);
+        await page.type(SignupElement.candidateLastName,lname);
         await page.type(SignupElement.candidateEmail, Email);
         await page.type(SignupElement.candidatePhoneNo,'98765434');
         await page.type(SignupElement.candidatePassword,'admin123');
@@ -48,8 +50,8 @@ beforeAll(async() => {
         await page.goto('https://beta.snaphunt.com/employers');
         await page.waitForSelector(SignupElement.recruiterGetStartedButton);
         await page.click(SignupElement.recruiterGetStartedButton);
-        await page.type(SignupElement.recruiterFirstName,'Atul');
-        await page.type(SignupElement.recruiterLastName,'Singh');
+        await page.type(SignupElement.recruiterFirstName,fname);
+        await page.type(SignupElement.recruiterLastName,lname);
         await page.type(SignupElement.recruiterEmail, Email);
         await page.type(SignupElement.recruiterPhoneNo,'98765434');
         await page.type(SignupElement.recruiterPassword,'admin123');

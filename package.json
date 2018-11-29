@@ -7,11 +7,21 @@
     "puppeteer": "^1.10.0",
     "puppeteer-core": "^1.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "Atul",
   "license": "ISC",
-  "description": "woovy automation"
+  "description": "woovy automation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atul-singh-xelp/snap-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atul-singh-xelp/snap-testing/issues"
+  },
+  "homepage": "https://github.com/atul-singh-xelp/snap-testing#readme"
 }

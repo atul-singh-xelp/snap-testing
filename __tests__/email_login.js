@@ -9,7 +9,7 @@ let betaurl='https://beta.snaphunt.com';
 
 beforeAll(async() => {
     browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 250
     })
     page = await browser.newPage();
