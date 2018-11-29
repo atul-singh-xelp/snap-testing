@@ -1,8 +1,11 @@
 {
-  "name": "woovly",
+  "name": "snaphunt",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "chalk": "^2.4.1",
+    "faker": "^4.1.0",
+    "jest-environment-node": "^23.4.0",
     "npm": "^6.4.1",
     "puppeteer": "^1.10.0",
     "puppeteer-core": "^1.10.0"
@@ -13,9 +16,9 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Atul",
+  "author": "Atul Singh",
   "license": "ISC",
-  "description": "woovy automation",
+  "description": "Snaphunt Automation",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atul-singh-xelp/snap-testing.git"
