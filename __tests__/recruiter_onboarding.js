@@ -5,6 +5,7 @@ let timeout = 50000;
 let browser;
 let page;
 let betaurl='https://beta.snaphunt.com/login';
+let companylogo='cv/companylogo.jpg';
 
 beforeAll(async() => {
     browser = await puppeteer.launch({
@@ -47,6 +48,23 @@ describe('recruiter onboarding process', ()=>{
         await page.click('#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-footer > div > div.FormFooter-right > div:nth-child(2) > div > div.CircleButton-hovered.CircleButton-layer > div > div.Icon-activeImage');
 
       },timeout); 
+      it('Select Plan', async()=>{
+          await page.click('#root > div > div.App-centeredContainer.ScreenResize > div > div > div.PaymentPlans > div > div > div:nth-child(2) > div > div > div.PaymentCard-buttonHolder > div > div.PaymentCard-buttonHolder > div');
+
+
+      },timeout);
+
+      it('fill company Details', async()=>{
+        await page.type('#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(1) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div.ql-container.ql-snow',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries');
+        await page.click('#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(2) > div.FormComponent-contentContainer > div.FormComponent-content > div > div.Column.Column-align-left.Column-align-top.Column-mobile-device > div > div > div > div.overlay > div');
+        const fileInput = await page.$('input[type=file]');
+        await fileInput.uploadFile(companylogo);
+      });
+
+
+
+
     //    await page.evaluate( ()=>{
     //        document.getElementsByClassName('App-logOutIcon')[0].click();
     //    });       
