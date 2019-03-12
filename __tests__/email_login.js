@@ -58,7 +58,7 @@ describe('Candidate Login', ()=>{
        await page.evaluate( ()=>{
            document.getElementsByClassName('App-logOutIcon')[0].click();
        });     
-        expect(name).toBe('Atul Singh');
+        expect(name).toBe('Shivam Kumar');
     },timeout);
  
 },timeout);
