@@ -1,5 +1,21 @@
 module.exports = {
-    emailid:'atul@singh.in',
-    password:'admin123',
-    
+     company_Description:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(1) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div.ql-container.ql-snow > div.ql-editor.ql-blank > p",
+     Next_Button:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-footer > div > div.FormFooter-right > div:nth-child(2) > div > div.CircleButton-hovered.CircleButton-layer > div > div.Icon-activeImage",
+     company_videoLink:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(4) > div.FormComponent-contentContainer > div.FormComponent-content > div > div.RecruiterPersonalDetailForm-inputForVideoAdd > div.RecruiterPersonalDetailForm-inputSaveButtonHolder > div.Input.Input-hollow > input",
+     email_id:"new@rec9.in",
+     pwd:"admin123",
+     companylogo:"cv/companylogo.jpg",
+     Mr_Element:"#react-select-8--value > div.Select-input",
+    Select_Mr:"#react-select-8--list",
+    company_designation:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(4) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div > input",
+    companyName:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(5) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div > input",
+    company_DispalyName:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(6) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div > input",
+    company_Website:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(8) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div > input",
+    company_Address:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(9) > div.FormComponent-contentContainer > div.FormComponent-content > div:nth-child(1) > div > div > input",
+    company_Pincode:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(9) > div.FormComponent-contentContainer > div.FormComponent-content > div:nth-child(3) > div > div.RecruiterPersonalDetailForm-input50 > div > input",
+    company_City:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-personalDetail-body > div > div:nth-child(9) > div.FormComponent-contentContainer > div.FormComponent-content > div:nth-child(3) > div > div.RecruiterPersonalDetailForm-inputLocation > div > input",
+    company_PayperHireButton:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.PaymentPlans > div > div > div:nth-child(3) > div > div > div.PaymentCard-buttonHolder > div > div.PaymentCard-buttonHolder > div",
+    company_payperHireConfirm:"#modal-root > div > div > div.ModalPanel-content > div > div.PopUp > div.PopUp-buttonHolder > div > div",
+    corporate_Video:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(4) > div.FormComponent-contentContainer > div.FormComponent-content > div > div.RecruiterPersonalDetailForm-inputForVideoAdd > div.RecruiterPersonalDetailForm-inputSaveButtonHolder > div.RecruiterPersonalDetailForm-inputForVideoAddLinkButton > div > div",
+    hamburger_menu:"#root > div > div.App-centeredContainer.ScreenResize > div:nth-child(1) > div > div.SideNavigator > div.SideNavigator-list"
     }
