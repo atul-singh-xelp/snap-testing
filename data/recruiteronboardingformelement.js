@@ -2,7 +2,7 @@ module.exports = {
      company_Description:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(1) > div.FormComponent-contentContainer > div.FormComponent-content > div > div > div.ql-container.ql-snow > div.ql-editor.ql-blank > p",
      Next_Button:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.OnBoardingRecruiter-footer > div > div.FormFooter-right > div:nth-child(2) > div > div.CircleButton-hovered.CircleButton-layer > div > div.Icon-activeImage",
      company_videoLink:"#root > div > div.App-centeredContainer.ScreenResize > div > div > div.RecruiterCompanyDetailForm-container > div.RecruiterCompanyDetailForm > div:nth-child(4) > div.FormComponent-contentContainer > div.FormComponent-content > div > div.RecruiterPersonalDetailForm-inputForVideoAdd > div.RecruiterPersonalDetailForm-inputSaveButtonHolder > div.Input.Input-hollow > input",
-     email_id:"new@rec7.in",
+     email_id:"new@rec9.in",
      pwd:"admin123",
      companylogo:"cv/companylogo.jpg",
      Mr_Element:"#react-select-8--value > div.Select-input",
