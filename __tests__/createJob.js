@@ -88,6 +88,10 @@ describe('Create a new job For Singapore by Recruiter', ()=>{
         await page.click(createJobElements.competencies_QualityandDetailOrientation);
         await page.click(createJobElements.competencies_Result_Driven);
         await page.click(createJobElements.continue_Button);
+        await page.evaluate(()=>{
+            window.scrollBy(0, 9999);
+        });
+       await page.click(createJobElements.continue_Button);
         await page.waitFor(5000);
         const checkheading= await page.evaluate(()=>{
             return document.getElementsByClassName('FormComponent-headerLeft')[0].innerText;
@@ -97,7 +101,11 @@ describe('Create a new job For Singapore by Recruiter', ()=>{
         await page.waitFor(5000);          
     },timeout);
 
-    it('check autofill job Description', async()=>{
+    it('check autofill job Description and video Summary page', async()=>{
+        await page.waitForSelector('#root > div > div.App-centeredContainer.ScreenResize > div.MultiForm.MultiForm-progressPosition-top > div.MultiForm-pageHolder > div > div > div > div > div:nth-child(4) > div.FormComponent-contentContainer > div.FormComponent-labelContainer > div > span');
+        await page.evaluate(()=>{
+            window.scrollBy(0, 9999);
+        });
         await page.click(createJobElements.continue_Button);
         await page.waitFor(5000); 
         const VIDEO_SUMMARY= await page.evaluate(()=>{
@@ -108,6 +116,7 @@ describe('Create a new job For Singapore by Recruiter', ()=>{
     }, timeout);
 
     it('check job preview page', async()=>{
+        
         await page.click(createJobElements.previewPublish_Button);
         await page.waitFor(5000); 
         const Title_SUMMARY= await page.evaluate(()=>{
